@@ -9,7 +9,7 @@ public:
                 umap[sum] = umap.find(sum) == umap.end() ? 1 : umap[sum]+1;
             }
         return wall.size() - (umap.empty() ? 0 : max_element(umap.begin(), umap.end(),
-                [&](const pair<int, int>& x, pair<const int, int>& y){return x.second < y.second;}
+                [&](const pair<int, int>& x, const pair<int, int>& y){return x.second < y.second;}
                 )->second);
     }
 };
