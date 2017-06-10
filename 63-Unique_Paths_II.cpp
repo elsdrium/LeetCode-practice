@@ -15,7 +15,6 @@ public:
                     obstacleGrid[i][j] = 0;
                 else
                     obstacleGrid[i][j] = obstacleGrid[i-1][j] + obstacleGrid[i][j-1];
-                
             }
         return obstacleGrid.back().back();
     }
