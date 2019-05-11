@@ -8,13 +8,15 @@ public:
         while ( !que.empty() ) {
             auto node = que.front();
             que.pop();
+
             if ( node->left == NULL ) last = true;
-            if ( node->left != NULL ) {
+            else {
                 if ( last ) return false;
                 que.push(node->left);
             }
+
             if ( node->right == NULL ) last = true;
-            if ( node->right != NULL ) {
+            else {
                 if ( last ) return false;
                 que.push(node->right);
             }
