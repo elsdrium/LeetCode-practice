@@ -1,7 +1,7 @@
 # LeetCode-practice
 
-Recording my practice progress on LeetCode public problem set. All codes are mostly written in modern C++.
-Feel free to view it and give me feedback :)
+Recording my practice progress on LeetCode public problem set. The codes are mostly written in modern C++.
+Feel free give me feedback if any :)
 
 My LeetCode profile: [https://leetcode.com/elsdrium](https://leetcode.com/elsdrium)
 
