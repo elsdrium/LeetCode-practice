@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     int countBattleships(vector<vector<char>>& board) {
         int result = 0;
